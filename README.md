@@ -31,7 +31,7 @@ FROM nginx:latest
 
 RUN echo 'Hello world !' > /usr/share/nginx/html/index.html
   
-__Comando para executar__
+_Comando para executar_
 
 __docker image build -t [NOME DA TAG] .__
 
