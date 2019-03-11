@@ -1,6 +1,6 @@
 # comandos-docker
 
-## Comandos para Imagem
+## Comandos para Imagem ##
 
  __docker image__ - _comamdo base para gerenciamento de imagem_
  
@@ -18,13 +18,13 @@ __docker image build__ _comando para construir uma imagem_
 
 __docker image push__ _envia uma imagem ao registry ou docker hub_
 
-### Links Uteis
+### Links Uteis ###
 
 [Docker Hub](https://hub.docker.com/search/?type=image) - Repositório de imagens.
 
 
 
-# Criando um build
+# Criando um build #
 
 Criar um arquivo de nome _Dockerfile_ __(Deve ser sem extensão)__
 
