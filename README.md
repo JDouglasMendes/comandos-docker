@@ -29,7 +29,7 @@ Criar um arquivo de nome _Dockerfile_ __(Deve ser sem extensão)__
 
 FROM nginx:latest
 
-RUN echo '<h1>Hello world !</h1>' > /usr/share/nginx/html/index.html
+RUN echo 'Hello world !' > /usr/share/nginx/html/index.html
   
 __Comando para executar__
 
