@@ -1,4 +1,4 @@
-# comandos-docker
+# comandos-docker #
 
 ## Comandos para Imagem ##
 
@@ -8,7 +8,7 @@
 
 __docker image ls__ _lista todas as imagens_
 
-__docker image rm__[NOME DA TAG] _remove uma imagem_
+__docker image rm__ [NOME DA TAG] _remove uma imagem_
 
 __docker image inspect__ [NOME DA TAG] _mostra informações da imagem_
 
@@ -21,7 +21,6 @@ __docker image push__ _envia uma imagem ao registry ou docker hub_
 ### Links Uteis ###
 
 [Docker Hub](https://hub.docker.com/search/?type=image) - Repositório de imagens.
-
 
 
 # Criando um build #
