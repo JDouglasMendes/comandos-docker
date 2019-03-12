@@ -18,6 +18,10 @@ __docker image build__ - _comando para construir uma imagem_
 
 __docker image push__ - _envia uma imagem ao registry ou docker hub_
 
+__docker network ls__ - _lista as redes do container_
+
+__docker network inspect [bridge, nome, host] - _inspeciona uma rede_
+
 ### Links Uteis ###
 
 [Docker Hub](https://hub.docker.com/search/?type=image) - Repositório de imagens.
@@ -41,3 +45,11 @@ _Comando para executar_
 __docker image build -t [NOME DA TAG] .__
 
 __docker container run -p 80:80 [NOME IMAGEM]__
+
+### Rede ###
+
+__docker container run -d --net none debian__ _container sem rede_
+
+__docker container run d --net brigde debian__ _container com uma rege brigde_
+
+
