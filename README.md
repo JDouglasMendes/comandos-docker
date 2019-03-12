@@ -20,7 +20,7 @@ __docker image push__ - _envia uma imagem ao registry ou docker hub_
 
 __docker network ls__ - _lista as redes do container_
 
-__docker network inspect [bridge, nome, host] - _inspeciona uma rede_
+__docker network inspect_ _[bridge, nome, host]_ - _inspeciona uma rede_
 
 ### Links Uteis ###
 
