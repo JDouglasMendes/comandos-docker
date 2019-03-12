@@ -22,11 +22,11 @@ __docker image push__ - _envia uma imagem ao registry ou docker hub_
 
 [Docker Hub](https://hub.docker.com/search/?type=image) - Repositório de imagens.
 
-### Enviando uma imagem para o Docker Hub ###
+### Passos para enviar uma imagem para o Docker Hub ###
 
-__docker image tag__ _[NOME DA TAG]_  _[NOME REGISTRO]/[NOME IMAGEM]:[VERSAO]_
+_1ª)_ __docker image tag__ _[NOME DA TAG]_  _[NOME REGISTRO]/[NOME IMAGEM]:[VERSAO]_
 
-__docker login --username=__ _[NOME DO USUARIO]_
+_2ª)_ __docker login --username=__ _[NOME DO USUARIO]_
 
 # Criando um build #
 
