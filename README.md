@@ -50,6 +50,6 @@ __docker container run -p 80:80 [NOME IMAGEM]__
 
 __docker container run -d --net none debian__ _container sem rede_
 
-__docker container run d --net brigde debian__ _container com uma rege brigde_
+__docker container run d --net brigde debian__ _container com uma rede brigde_
 
 
