@@ -16,6 +16,7 @@ version: '3'
       image: nginx:1.13  
       volumes:
         - ./web:/user/share/nginx/html
+        - ./nginx/default.comf:/etc/nginx/conf.d/default.conf
       ports:
         - 80:80
     app:
