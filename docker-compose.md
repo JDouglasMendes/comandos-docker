@@ -17,8 +17,17 @@
       ports:      
         - 80:80        
 
+<blockquote>
+  <p>docker ps</p>
+  <p>lista os containers ativos</p>
+</lockquote> 
 
 <blockquote>
   <p>Comando para "subir" as imagens.</p>
   <p>docker-compose up</p>
+</lockquote> 
+
+<blockquote>
+  <p>docker container run --name ws1 -p8080:80 nginx</p>
+  <p></p>
 </lockquote> 
