@@ -27,7 +27,3 @@
   <p>docker-compose up</p>
 </lockquote> 
 
-<blockquote>
-  <p>docker container run --name ws1 -p8080:80 nginx</p>
-  <p></p>
-</lockquote> 

@@ -52,14 +52,15 @@ __docker container run -d --net none debian__ _container sem rede_
 
 __docker container run d --net brigde debian__ _container com uma rede brigde_
 
-
+__docker container run --name ws1 -p8080:80 nginx__ 
 <blockquote>
-  <p>docker container run --name ws1 -p8080:80 nginx</p>
   <p></p>
 </lockquote> 
 
+__docker container run --name ws3 -p8080:80 -v(pwd)/html:/usr/share/nginx/html -d nginx__
 <blockquote>
-  <p>docker container run --name ws1 -p8080:80 nginx</p>
   <p></p>
 </lockquote> 
+
+
 
