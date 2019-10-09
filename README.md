@@ -55,12 +55,32 @@ __docker container run d --net brigde debian__ _container com uma rede brigde_
 __docker container run --name ws1 -p8080:80 nginx__ 
 <blockquote>
   <p></p>
-</lockquote> 
+</blockquote> 
 
 __docker container run --name ws3 -p8080:80 -v(pwd)/html:/usr/share/nginx/html -d nginx__
+
 <blockquote>
   <p></p>
-</lockquote> 
+</blockquote> 
+
+__docker container run -nome demonet -it microsoft/dotnet:2.1-sdk__
+__dotnet new console__
+__dotnet build__
+__dotnet run__
+
+__docker container star -it demonet__
+<blockquote>
+  <p></p>
+</blockquote>
+
+__docker container prune__
+<blockquote>
+  <p></p>
+</blockquote>
+
+__docker image rm [nome_imagem]__
+
+
 
 
 
